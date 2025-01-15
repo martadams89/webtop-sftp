@@ -40,4 +40,3 @@ JSON_REPORTER: true
 GITHUB_STATUS_REPORTER: false
 PLUGINS:
   - https://raw.githubusercontent.com/oxsecurity/megalinter/main/.automation/test/mega-linter-plugin-test/test.megalinter-descriptor.yml
-  
