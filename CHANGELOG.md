@@ -2,10 +2,9 @@
 
 ## 1.0.0 (2025-01-15)
 
-
 ### Features
 
-* initial commit :rocket: ([5d23753](https://github.com/martadams89/webtop-sftp/commit/5d237530902c66b90a04b346a99122eaf27c5bd8))
+- initial commit :rocket: ([5d23753](https://github.com/martadams89/webtop-sftp/commit/5d237530902c66b90a04b346a99122eaf27c5bd8))
 
 ## [1.0.0](https://github.com/martadams89/webtop-sftp/compare/v1.2.0...v1.3.0) (2025-01-15)
 
