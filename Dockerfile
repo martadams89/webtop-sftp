@@ -1,5 +1,10 @@
 # syntax=docker/dockerfile:1
 
+# Skip Checkov checks that are handled upstream
+# checkov:skip=CKV_DOCKER_7:Base image uses a non latest version tag
+# checkov:skip=CKV_DOCKER_2:Ensure that HEALTHCHECK instructions have been added to container images
+# checkov:skip=CKV_DOCKER_3:Ensure that a user for the container has been created
+
 # Renovate: datasource=docker versioning=docker
 FROM lscr.io/linuxserver/webtop:latest
 
