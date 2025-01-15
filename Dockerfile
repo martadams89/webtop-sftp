@@ -11,4 +11,7 @@ ENV CURL_VERSION="8.1.0-r0"
 ENV VIM_VERSION="9.0.1500-r0"
 
 RUN apk update && \
-  apk add --no-cache filezilla=$FILEZILLA_VERSION curl=$CURL_VERSION vim=$VIM_VERSION
+  apk add --no-cache \
+  filezilla="${FILEZILLA_VERSION}" \
+  curl="${CURL_VERSION}" \
+  vim={$VIM_VERSION}
