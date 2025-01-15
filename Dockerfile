@@ -4,11 +4,11 @@
 FROM lscr.io/linuxserver/webtop:latest
 
 # Renovate: datasource=repology depName=alpine_edge/filezilla versioning=loose
-ENV FILEZILLA_VERSION="3.63.0-r0"
+ENV FILEZILLA_VERSION="3.68.1-r0"
 # Renovate: datasource=repology depName=alpine_edge/curl versioning=loose
-ENV CURL_VERSION="8.1.0-r0"
+ENV CURL_VERSION="8.11.1-r0"
 # Renovate: datasource=repology depName=alpine_edge/vim versioning=loose
-ENV VIM_VERSION="9.0.1500-r0"
+ENV VIM_VERSION="9.1.1012-r0"
 
 RUN apk update && \
   apk add --no-cache \
