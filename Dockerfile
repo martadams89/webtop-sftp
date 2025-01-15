@@ -14,4 +14,4 @@ RUN apk update && \
   apk add --no-cache \
   filezilla="${FILEZILLA_VERSION}" \
   curl="${CURL_VERSION}" \
-  vim={$VIM_VERSION}
+  vim="{$VIM_VERSION}"
